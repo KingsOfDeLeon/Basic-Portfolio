@@ -1,34 +1,37 @@
-.content{
-width: 60%;
-background-color: coral;
-margin-left: 15%
-
+.banner{
+width: 960px;
+height: 150px;
+font-size: 25px;
 }
 
-h1{
-    background-color: teal;
-    color:  white;
+h1 {
+    background-color: #4aaaa5;
+    color: white;
     height: 150px;
     width: 16.6667%;
     font-size: 36px;
     text-align: center;
     margin-left: 15%;
-}
-
-h2{
-color: teal;
-margin-left: 18%;
-font-size: 36px;
-}
-
-
-img{
-    margin-left: 15%;
     float: left;
 }
 
-p{
-font-size: 24px;
-line-height: 1.6;
-margin-left: 600px;
+a{
+    float: right;
+}
+
+div {
+    clear: both;
+}
+
+h2 {
+    color: #4aaaa5;
+    ;
+    margin-left: 18%;
+    font-size: 36px;
+}
+
+
+img {
+    margin-left: 15%;
+    float: left;
 }
