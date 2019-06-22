@@ -107,6 +107,62 @@ hr {
     overflow: auto;
 }
 
+form{
+    margin-right:24px;
+    margin-left: 24px;
+}
+
+.formText{
+	color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    border: 1px solid #777777;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+textarea[type=textarea] {
+    width: 100%;
+    font-size: 16px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+    border: 1px solid #777777;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+	min-height: 220px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+    padding: 12px 48px;
+    border-right: 1px solid #4aaaa5;
+    border-left: 1px solid #4aaaa5;
+	cursor: pointer;
+	font-size: 20px;
+    text-align: middle;
+    margin-bottom: 36px; 
+}
+
 .footerSpace {
     background-color: #666666;
     width: 100%;
