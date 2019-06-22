@@ -75,6 +75,22 @@ hr {
     padding-left: 24px;
 }
 
+.portImage{
+    padding-top: 24px;
+    padding-left: 24px; 
+}
+
+.portImageBottom{
+   padding-bottom: 50px; 
+}
+
+/* .portImageDescription{
+    z-index: -1;
+    width: auto;
+    background: #4aaaa5;
+    line-height: 15px;
+} */
+
 .bodyText {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
