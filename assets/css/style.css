@@ -17,6 +17,7 @@
 
 .background {
     background-image: url("../images/beige-tiles/beige-tiles.png");
+    min-height: 100%;
 }
 
 
@@ -55,7 +56,7 @@
     padding-left: 25px;
 }
 
-hr{
+hr {
     width: 910px;
     color: #cccccc
 }
@@ -64,26 +65,53 @@ hr{
     font-family: 'Georgia', Times, Times 'New Roman', serif;
 } */
 
-#profilePic{
-	width: 25%;
-	z-index: 1;
-	float: left;
+#profilePic {
+    width: 25%;
+    height: auto;
+    z-index: 1;
+    float: left;
     margin: auto;
     padding-top: 24px;
     padding-left: 24px;
 }
-.bodyText{
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 16px;
-	text-align: justify;
+
+.bodyText {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
     text-justify: inter-word;
     padding-top: 12px;
     padding-right: 20px;
-	padding-left: 20px;
-	line-height: 1.6;
+    padding-left: 20px;
+    line-height: 1.6;
 }
 
 .clearfix {
     overflow: auto;
-  }
+}
+
+.footerSpace {
+    background-color: #666666;
+    width: 100%;
+    height: 32px;
+    opacity: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #666666;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px; 
+    color: #ffffff;
+    margin-top: 30px;
+    border-top: 6px solid #4aaaa5;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
