@@ -3,24 +3,33 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Activity 1</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>HomeWork 1</title>
+    <link rel="stylesheet" href="./assets/css/test.css">
 </head>
 
-<body>
-   <div>
-    <h1>Luke DeLeon</h1>
-    <a href="./index.html" alt="About page link" title="About">About</a>
-    <a href="./portfolio.html" alt="Portfolio page link" title="Portfolio">Portfolio</a>
-    <a href="./contact.html" alt="Contact page link" title="Contact">Contact</a>
-   </div>
+<section class="bannerSpace"></section>
 
-    <div>
-        <div>
-            <h2>About Me</h2>
+<body class="background">
+    <div class="wrapper">
+        <header>
+            <h1 id="Name">Luke DeLeon</h1>
+            <nav>
+                <a class="bannerLink" href="./contact.html" alt="Contact page link" title="Contact">Contact</a>
+                <span class="bannerLink"> | </span>
+                <a class="bannerLink" href="./portfolio.html" alt="Portfolio page link" title="Portfolio">Portfolio</a>
+                <span class="bannerLink"> | </span>
+                <a class="bannerLink" href="./index.html" alt="About page link" title="About">About</a>
+            </nav>
+        </header>
+
+        <section class="main">
+            <h2 ID="aboutMe">About Me</h2>
             <hr>
-            <img src="./assets/images/PlaceHoldImage.jfif" alt="lol it me" height="200" width="300">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <img id="profilePic" src="./assets/images/PlaceHoldImage.jfif" alt="lol it me" height="200" width="300">
+
+            <p class="bodyText clearfix">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
                 dolore magna aliqua. Ut sem viverra aliquet eget. Augue neque gravida in fermentum et sollicitudin.
                 Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Magna sit amet purus gravida quis
                 blandit turpis cursus in. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Est
@@ -30,7 +39,7 @@
                 a cras semper auctor. Praesent tristique magna sit amet purus gravida quis blandit turpis. Felis eget
                 velit aliquet sagittis.</p>
             <br>
-            <p>
+            <p class="bodyText">
                 Habitant morbi tristique senectus et netus et malesuada fames ac. Nisl tincidunt eget nullam non nisi
                 est sit. Risus commodo viverra maecenas accumsan lacus. Bibendum neque egestas congue quisque egestas.
                 Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Viverra nam libero justo
@@ -41,7 +50,9 @@
                 lobortis elementum. Congue quisque egestas diam in arcu cursus. Morbi non arcu risus quis varius. Leo a
                 diam sollicitudin tempor id.
             </p>
-            <p>Mi eget mauris pharetra et ultrices neque ornare aenean. Suspendisse sed nisi lacus sed viverra tellus
+            <p class="bodyText">
+                Mi eget mauris pharetra et ultrices neque ornare aenean. Suspendisse sed nisi lacus sed
+                viverra tellus
                 in. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Velit laoreet id donec ultrices
                 tincidunt arcu non sodales neque. Aliquam id diam maecenas ultricies mi eget. Posuere lorem ipsum dolor
                 sit amet consectetur adipiscing elit duis. Dictumst quisque sagittis purus sit amet volutpat consequat
@@ -50,16 +61,11 @@
                 quisque sagittis purus sit amet. Nisl nisi scelerisque eu ultrices vitae auctor. Habitasse platea
                 dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. In fermentum posuere urna nec.
                 Nec ullamcorper sit amet risus nullam eget felis.</p>
-        </div>
-
+        </section>
     </div>
-
     <footer>
-        <p>Copyright</p>
+        <p>Copyright &copy;</p>
     </footer>
-
-
-
 </body>
 
 </html>
