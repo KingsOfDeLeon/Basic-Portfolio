@@ -1,3 +1,4 @@
+/*  top banner styling */
 .bannerSpace {
     height: 100px;
     width: 100%;
@@ -10,18 +11,20 @@
     z-index: -1;
 }
 
+/* Creates Banner spacing */
 .wrapper {
     width: 960px;
     margin: 0 auto;
 }
 
+/* Background image. Min height akes footer "sticky" */
 .background {
     background-image: url("../images/beige-tiles/beige-tiles.png");
     min-height: 100%;
 }
 
 
-
+/*Block on Banner containing my name */
 #Name {
     background-color: #4aaaa5;
     color: white;
@@ -32,7 +35,7 @@
     text-align: center;
     float: left;
 }
-
+/* Page navigational link spacing and poisitioning */
 .bannerLink {
     float: right;
     font-size: 18px;
@@ -40,7 +43,7 @@
     padding-right: 10px;
     padding-left: 10px;
 }
-
+/* Main content space */
 .main {
     clear: both;
     background-color: white;
@@ -48,6 +51,7 @@
     border-bottom: 2px solid #dddddd;
 }
 
+/* About Me block stlying on index.html */
 #aboutMe {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times 'New Roman', serif;
@@ -55,7 +59,7 @@
     padding-top: 40px;
     padding-left: 25px;
 }
-
+/* Style's horizontal line breaks */
 hr {
     width: 910px;
     color: #cccccc
@@ -65,6 +69,7 @@ hr {
     font-family: 'Georgia', Times, Times 'New Roman', serif;
 } */
 
+/* Style for profile picture on index.html */
 #profilePic {
     width: 25%;
     height: auto;
@@ -75,22 +80,26 @@ hr {
     padding-left: 24px;
 }
 
+/* styles for portfolio image links */
 .portImage{
     padding-top: 24px;
     padding-left: 24px; 
 }
 
+/* adds additional padding on lowest picture to create white space near footer. */
 .portImageBottom{
    padding-bottom: 50px; 
 }
-
-/* .portImageDescription{
+/* 
+ .portImageDescription{
+    position: fixed;
     z-index: -1;
     width: auto;
     background: #4aaaa5;
     line-height: 15px;
-} */
+}  */
 
+/* Styles paragraph information in index.html */
 .bodyText {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -103,21 +112,23 @@ hr {
     line-height: 1.6;
 }
 
+/* relieves over-floating */
 .clearfix {
     overflow: auto;
 }
-
+/* form spacing on contact.html */
 form{
     margin-right:24px;
     margin-left: 24px;
 }
 
+/*Styles the form names*/
 .formText{
 	color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
 }
-
+/* styles the text when entering information on the Name and Email section of the form */
 input[type=text] {
     width: 100%;
     font-size: 16px;
@@ -133,7 +144,7 @@ input[type=text] {
 	box-sizing: border-box;
 	color: #777777;
 }
-
+/* styles the text when entering information on the Message section of the form */
 textarea[type=textarea] {
     width: 100%;
     font-size: 16px;
@@ -149,7 +160,7 @@ textarea[type=textarea] {
 	box-sizing: border-box;
 	color: #777777;
 }
-
+/* Styles the button section of the form */
 input[type=submit] {
 	margin-top: 10px;
 	background-color: #4aaaa5;
@@ -162,14 +173,14 @@ input[type=submit] {
     text-align: middle;
     margin-bottom: 36px; 
 }
-
+/* creates spacing for the footer */
 .footerSpace {
     background-color: #666666;
     width: 100%;
     height: 32px;
     opacity: 0;
 }
-
+/* styles footer */
 footer {
     position: fixed;
     left: 0px;
@@ -184,6 +195,7 @@ footer {
     border-top: 6px solid #4aaaa5;
 }
 
+/* Links change red when hovering over them */
 a:hover{
     color: rgba(255, 0, 0, 0.5);
 }
